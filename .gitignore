@@ -35,8 +35,10 @@ wheels/
 .DS_Store
 
 # Project specific
+# Log files (but keep trace.log as example for reviewers)
 *.log
-!trace.log  # Exception: Keep trace.log for reviewers to see trace functionality
+!trace.log
+
 # Keep optimization_results.json - reviewers need to see DSPy optimization metrics
 !optimization_results.json
 

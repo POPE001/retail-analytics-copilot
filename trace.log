@@ -1,0 +1,74 @@
+/Users/oluwamayowa/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2025/11/26 01:08:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:43 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:43 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:43 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:43 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:43 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:43 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2025/11/26 01:08:43 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+Loading batch from sample_questions_hybrid_eval.jsonl...
+Processing 1/6: rag_policy_beverages_return_days
+[TRACE] router: {'node': 'router', 'event_type': 'node_execution', 'classification': None, 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] retriever: {'node': 'retriever', 'event_type': 'node_execution', 'classification': 'rag', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] planner: {'node': 'planner', 'event_type': 'node_execution', 'classification': 'rag', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] synthesizer: {'node': 'synthesizer', 'event_type': 'node_execution', 'classification': 'rag', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+Processing 2/6: hybrid_top_category_qty_summer_1997
+[TRACE] router: {'node': 'router', 'event_type': 'node_execution', 'classification': None, 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] retriever: {'node': 'retriever', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] planner: {'node': 'planner', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] generator: {'node': 'generator', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] executor: {'node': 'executor', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': True, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] synthesizer: {'node': 'synthesizer', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': True, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+Processing 3/6: hybrid_aov_winter_1997
+[TRACE] router: {'node': 'router', 'event_type': 'node_execution', 'classification': None, 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] retriever: {'node': 'retriever', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] planner: {'node': 'planner', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] generator: {'node': 'generator', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] executor: {'node': 'executor', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': True, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] synthesizer: {'node': 'synthesizer', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': True, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+Processing 4/6: sql_top3_products_by_revenue_alltime
+[TRACE] router: {'node': 'router', 'event_type': 'node_execution', 'classification': None, 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] generator: {'node': 'generator', 'event_type': 'node_execution', 'classification': 'sql', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] executor: {'node': 'executor', 'event_type': 'node_execution', 'classification': 'sql', 'has_sql': True, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] synthesizer: {'node': 'synthesizer', 'event_type': 'node_execution', 'classification': 'sql', 'has_sql': True, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+Processing 5/6: hybrid_revenue_beverages_summer_1997
+[TRACE] router: {'node': 'router', 'event_type': 'node_execution', 'classification': None, 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] retriever: {'node': 'retriever', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] planner: {'node': 'planner', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] generator: {'node': 'generator', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] executor: {'node': 'executor', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': True, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] synthesizer: {'node': 'synthesizer', 'event_type': 'node_execution', 'classification': 'hybrid', 'has_sql': True, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+Processing 6/6: hybrid_best_customer_margin_1997
+[TRACE] router: {'node': 'router', 'event_type': 'node_execution', 'classification': None, 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] generator: {'node': 'generator', 'event_type': 'node_execution', 'classification': 'sql', 'has_sql': False, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] executor: {'node': 'executor', 'event_type': 'node_execution', 'classification': 'sql', 'has_sql': True, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+[TRACE] synthesizer: {'node': 'synthesizer', 'event_type': 'node_execution', 'classification': 'sql', 'has_sql': True, 'sql_error': False, 'repair_count': 0, 'has_answer': False}
+
+=== Execution Trace ===
+{"timestamp": "2025-11-26T01:08:42.446806", "event": "batch_start", "total_questions": 6}
+{"timestamp": "2025-11-26T01:08:42.446818", "event": "question_start", "question_id": "rag_policy_beverages_return_days", "question": "According to the product policy, what is the return window (days) for unopened Beverages? Return an integer."}
+{"timestamp": "2025-11-26T01:08:42.453553", "event": "question_complete", "question_id": "rag_policy_beverages_return_days", "classification": "rag", "repair_count": 0, "has_sql": false, "sql_error": false, "has_answer": true}
+{"timestamp": "2025-11-26T01:08:42.453559", "event": "question_start", "question_id": "hybrid_top_category_qty_summer_1997", "question": "During 'Summer Beverages 1997' as defined in the marketing calendar, which product category had the highest total quantity sold? Return {category:str, quantity:int}."}
+{"timestamp": "2025-11-26T01:08:42.619496", "event": "question_complete", "question_id": "hybrid_top_category_qty_summer_1997", "classification": "hybrid", "repair_count": 0, "has_sql": true, "sql_error": false, "has_answer": true}
+{"timestamp": "2025-11-26T01:08:42.619504", "event": "question_start", "question_id": "hybrid_aov_winter_1997", "question": "Using the AOV definition from the KPI docs, what was the Average Order Value during 'Winter Classics 1997'? Return a float rounded to 2 decimals."}
+{"timestamp": "2025-11-26T01:08:42.703703", "event": "question_complete", "question_id": "hybrid_aov_winter_1997", "classification": "hybrid", "repair_count": 0, "has_sql": true, "sql_error": false, "has_answer": true}
+{"timestamp": "2025-11-26T01:08:42.703712", "event": "question_start", "question_id": "sql_top3_products_by_revenue_alltime", "question": "Top 3 products by total revenue all-time. Revenue uses Order Details: SUM(UnitPrice*Quantity*(1-Discount)). Return list[{product:str, revenue:float}]."}
+{"timestamp": "2025-11-26T01:08:43.121318", "event": "question_complete", "question_id": "sql_top3_products_by_revenue_alltime", "classification": "sql", "repair_count": 0, "has_sql": true, "sql_error": false, "has_answer": true}
+{"timestamp": "2025-11-26T01:08:43.121323", "event": "question_start", "question_id": "hybrid_revenue_beverages_summer_1997", "question": "Total revenue from the 'Beverages' category during 'Summer Beverages 1997' dates. Return a float rounded to 2 decimals."}
+{"timestamp": "2025-11-26T01:08:43.195575", "event": "question_complete", "question_id": "hybrid_revenue_beverages_summer_1997", "classification": "hybrid", "repair_count": 0, "has_sql": true, "sql_error": false, "has_answer": true}
+{"timestamp": "2025-11-26T01:08:43.195580", "event": "question_start", "question_id": "hybrid_best_customer_margin_1997", "question": "Per the KPI definition of gross margin, who was the top customer by gross margin in 1997? Assume CostOfGoods is approximated by 70% of UnitPrice if not available. Return {customer:str, margin:float}."}
+{"timestamp": "2025-11-26T01:08:43.320888", "event": "question_complete", "question_id": "hybrid_best_customer_margin_1997", "classification": "sql", "repair_count": 0, "has_sql": true, "sql_error": false, "has_answer": true}
+=== End Trace ===
+
+Writing results to outputs_hybrid.jsonl...
