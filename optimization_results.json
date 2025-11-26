@@ -1,0 +1,14 @@
+{
+  "before": {
+    "valid_sql_rate": 0.95,
+    "valid_count": 19,
+    "total": 20
+  },
+  "after": {
+    "valid_sql_rate": 0.95,
+    "valid_count": 19,
+    "total": 20
+  },
+  "improvement_pct": 0.0,
+  "training_examples": 19
+}

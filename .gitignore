@@ -36,8 +36,9 @@ wheels/
 
 # Project specific
 *.log
-trace.log
-optimization_results.json
+!trace.log  # Exception: Keep trace.log for reviewers to see trace functionality
+# Keep optimization_results.json - reviewers need to see DSPy optimization metrics
+!optimization_results.json
 
 # Data files (optional - uncomment if you don't want to commit the database)
 # data/northwind.sqlite
