@@ -4,6 +4,21 @@ from typing import List, Dict, Any, Optional
 class SQLiteTool:
     def __init__(self, db_path: str):
         self.db_path = db_path
+        self._create_compatibility_views()
+    
+    def _create_compatibility_views(self):
+        """Create lowercase compatibility views for simpler SQL generation."""
+        try:
+            conn = sqlite3.connect(self.db_path)
+            cursor = conn.cursor()
+            cursor.execute("CREATE VIEW IF NOT EXISTS orders AS SELECT * FROM Orders;")
+            cursor.execute('CREATE VIEW IF NOT EXISTS order_items AS SELECT * FROM "Order Details";')
+            cursor.execute("CREATE VIEW IF NOT EXISTS products AS SELECT * FROM Products;")
+            cursor.execute("CREATE VIEW IF NOT EXISTS customers AS SELECT * FROM Customers;")
+            conn.commit()
+            conn.close()
+        except Exception as e:
+            pass
 
     def get_schema(self) -> str:
         """Returns the schema of the database including table names and columns."""
